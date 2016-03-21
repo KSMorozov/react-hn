@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import NewsItemsList from './NewsItemsList/NewsItemsList.jsx'
 import fetch from 'isomorphic-fetch';
+import NewsItemsList from './NewsItemsList/NewsItemsList.jsx'
+import Header from './Header/Header.jsx';
 
 class App extends Component {
   constructor(props) {
@@ -12,9 +13,8 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <img src="img/y18.gif" />
-        News Ycombinator
+      <div style={ { width: '85%', margin: 'auto' } }>
+        <Header />
         <NewsItemsList />
       </div>
     );

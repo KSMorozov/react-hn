@@ -1,0 +1,15 @@
+.newsItemsList {
+  background-color: rgb(246, 246, 239);
+}
+
+.newsItemsList-more {
+  margin-left: 40px; /* matches NewsItem rank and vote */
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.newsItemsList-moreLink {
+  color: black;
+  font-size: 10pt;
+  text-decoration: none;
+}
