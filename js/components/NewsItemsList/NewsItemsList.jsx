@@ -46,7 +46,7 @@ class NewsItemsList extends Component {
   renderMore() {
     return (
       <div className="newsItemsList-more">
-        <a className="newsItemsList-moreLink" onClick={this.handleNextPage} target="_blank">
+        <a className="newsItemsList-moreLink" onClick={this.handleNextPage}>
           More
         </a>
       </div>
